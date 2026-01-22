@@ -54,8 +54,9 @@ export default {
         },
       },
       fontFamily: {
-        heading: ["Cormorant Garamond", "serif"],
-        body: ["Inter", "sans-serif"],
+        heading: ["Montserrat", "sans-serif"],
+        body: ["Montserrat", "sans-serif"],
+        sans: ["Montserrat", "sans-serif"],
       },
       borderRadius: {
         lg: "var(--radius)",
