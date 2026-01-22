@@ -1,3 +1,5 @@
+import fundLogo from "@/assets/fund-logo.png";
+
 const logoIcon = "/favicon.png";
 
 const Footer = () => {
@@ -36,8 +38,13 @@ const Footer = () => {
 
         {/* Foundation support */}
         <div className="text-center mb-8">
-          <div className="inline-flex items-center gap-2 px-6 py-3 rounded-lg bg-background/50 border border-border/30">
-            <p className="text-sm text-muted-foreground max-w-2xl">
+          <div className="inline-flex flex-col md:flex-row items-center gap-4 px-6 py-4 rounded-lg bg-background/50 border border-border/30">
+            <img 
+              src={fundLogo} 
+              alt="Фонд содействия инновациям" 
+              className="h-16 w-auto flex-shrink-0"
+            />
+            <p className="text-sm text-muted-foreground max-w-2xl text-left">
               Проект создан при поддержке Федерального государственного бюджетного учреждения{" "}
               <span className="text-foreground font-medium">
                 Фонд содействия развитию малых форм предприятий в научно-технической сфере
