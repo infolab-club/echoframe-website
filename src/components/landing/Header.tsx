@@ -34,9 +34,9 @@ const Header = () => {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <a href="#" className="flex items-center gap-2">
-            <img src={logoIcon} alt="AR Paintings" className="w-7 h-7" />
+            <img src={logoIcon} alt="Эхофрейм" className="w-7 h-7" />
             <span className="font-heading text-xl font-bold text-foreground">
-              AR Paintings
+              Эхофрейм
             </span>
           </a>
 
@@ -51,9 +51,11 @@ const Header = () => {
                 {link.label}
               </a>
             ))}
-            <Button variant="gold" size="sm">
-              Заказать
-            </Button>
+            <a href="#contact">
+              <Button variant="gold" size="sm">
+                Заказать
+              </Button>
+            </a>
           </nav>
 
           {/* Mobile Menu Button */}
@@ -83,9 +85,11 @@ const Header = () => {
                   {link.label}
                 </a>
               ))}
-              <Button variant="gold" className="mt-2">
-                Заказать
-              </Button>
+              <a href="#contact" onClick={() => setIsMobileMenuOpen(false)}>
+                <Button variant="gold" className="mt-2 w-full">
+                  Заказать
+                </Button>
+              </a>
             </div>
           </nav>
         )}

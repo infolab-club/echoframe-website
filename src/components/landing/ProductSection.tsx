@@ -66,7 +66,7 @@ const ProductSection = () => {
         {/* How it works */}
         <div className="mt-20 text-center">
           <div className="inline-flex items-center gap-8 flex-wrap justify-center">
-            {["Выберите картину", "Получите заказ", "Откройте AR-приложение", "Наслаждайтесь магией"].map((step, index) => (
+            {["Выберите картину", "Получите заказ", "Воспользуйтесь AR-сервисом", "Наслаждайтесь магией"].map((step, index) => (
               <div key={index} className="flex items-center gap-4">
                 <div className="flex flex-col items-center">
                   <div className="w-10 h-10 rounded-full bg-primary text-primary-foreground flex items-center justify-center font-bold text-lg">

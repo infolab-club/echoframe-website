@@ -8,23 +8,23 @@ const paintings = [
   {
     id: 1,
     image: painting1,
-    title: "Закат в горах",
-    arDescription: "При активации AR картина оживает: облака начинают двигаться, а солнце медленно садится за горизонт",
-    price: "12 900 ₽"
+    title: "Мотивационная картина",
+    arDescription: "Каждый день новая вдохновляющая цитата — ваш ежедневный источник мотивации и позитивной энергии",
+    price: "3 000 ₽"
   },
   {
     id: 2,
     image: painting2,
-    title: "Весенний сад",
-    arDescription: "Цветы начинают качаться на ветру, появляются бабочки и пчёлы, создавая атмосферу живого сада",
-    price: "14 500 ₽"
+    title: "Счётчик любви",
+    arDescription: "Отсчитывает дни вашей совместной истории — романтичный подарок для второй половинки",
+    price: "4 000 ₽"
   },
   {
     id: 3,
     image: painting3,
-    title: "Таинственный портрет",
-    arDescription: "Героиня картины оживает: она улыбается, моргает и может рассказать свою историю",
-    price: "18 900 ₽"
+    title: "Послания любви",
+    arDescription: "Оставляйте друг другу романтические послания, которые появляются при наведении камеры",
+    price: "5 500 ₽"
   }
 ];
 
@@ -72,7 +72,7 @@ const GallerySection = () => {
 
               {/* Content */}
               <div className="p-6">
-                <div className="flex items-center justify-between mb-4">
+                <div className="flex items-center justify-between">
                   <h3 className="font-heading text-xl font-semibold text-foreground">
                     {painting.title}
                   </h3>
@@ -80,19 +80,9 @@ const GallerySection = () => {
                     {painting.price}
                   </span>
                 </div>
-                <Button variant="goldOutline" className="w-full">
-                  Подробнее
-                </Button>
               </div>
             </div>
           ))}
-        </div>
-
-        {/* View all button */}
-        <div className="text-center mt-12">
-          <Button variant="gold" size="lg">
-            Смотреть все картины
-          </Button>
         </div>
       </div>
     </section>

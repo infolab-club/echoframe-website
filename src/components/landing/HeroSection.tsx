@@ -28,7 +28,7 @@ const HeroSection = () => {
           {/* Badge */}
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-secondary/50 border border-primary/30 mb-8 backdrop-blur-sm">
             <Sparkles className="w-4 h-4 text-primary" />
-            <span className="text-sm font-medium text-primary">Искусство с дополненной реальностью</span>
+            <span className="text-sm font-medium text-primary">Эхофрейм — искусство с дополненной реальностью</span>
           </div>
 
           {/* Heading */}
@@ -46,13 +46,17 @@ const HeroSection = () => {
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <Button variant="hero" size="xl" className="group">
-              <Eye className="w-5 h-5 mr-2 group-hover:scale-110 transition-transform" />
-              Смотреть коллекцию
-            </Button>
-            <Button variant="heroOutline" size="xl">
-              Как это работает?
-            </Button>
+            <a href="#gallery">
+              <Button variant="hero" size="xl" className="group">
+                <Eye className="w-5 h-5 mr-2 group-hover:scale-110 transition-transform" />
+                Смотреть коллекцию
+              </Button>
+            </a>
+            <a href="#product">
+              <Button variant="heroOutline" size="xl">
+                Как это работает?
+              </Button>
+            </a>
           </div>
         </div>
 
