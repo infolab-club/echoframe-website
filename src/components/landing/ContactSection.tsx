@@ -25,7 +25,7 @@ const ContactSection = () => {
         <div className="grid md:grid-cols-2 gap-8 max-w-2xl mx-auto">
           {/* Telegram */}
           <a
-            href="https://t.me/your_telegram"
+            href="https://t.me/DenisBall"
             target="_blank"
             rel="noopener noreferrer"
             className="group flex flex-col items-center p-8 rounded-2xl bg-gradient-card border border-border/50 hover:border-primary/50 transition-all duration-500 shadow-card hover:shadow-gold"
@@ -39,12 +39,12 @@ const ContactSection = () => {
             <p className="text-muted-foreground text-center mb-4">
               Быстрые ответы и консультации
             </p>
-            <span className="text-primary font-medium">@ar_paintings</span>
+            <span className="text-primary font-medium">@DenisBall</span>
           </a>
 
           {/* Email */}
           <a
-            href="mailto:hello@ar-paintings.ru"
+            href="mailto:info@echoframe.ru"
             className="group flex flex-col items-center p-8 rounded-2xl bg-gradient-card border border-border/50 hover:border-primary/50 transition-all duration-500 shadow-card hover:shadow-gold"
           >
             <div className="w-16 h-16 rounded-full bg-primary/20 flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
@@ -56,7 +56,7 @@ const ContactSection = () => {
             <p className="text-muted-foreground text-center mb-4">
               Для деловых предложений
             </p>
-            <span className="text-primary font-medium">hello@ar-paintings.ru</span>
+            <span className="text-primary font-medium">info@echoframe.ru</span>
           </a>
         </div>
 
