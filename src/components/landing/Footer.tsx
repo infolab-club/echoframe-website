@@ -1,4 +1,4 @@
-import { Sparkles } from "lucide-react";
+const logoIcon = "/favicon.png";
 
 const Footer = () => {
   return (
@@ -7,7 +7,7 @@ const Footer = () => {
         {/* Logo and tagline */}
         <div className="flex flex-col items-center text-center mb-8">
           <div className="flex items-center gap-2 mb-3">
-            <Sparkles className="w-6 h-6 text-primary" />
+            <img src={logoIcon} alt="AR Paintings" className="w-7 h-7" />
             <span className="font-heading text-2xl font-bold text-foreground">AR Paintings</span>
           </div>
           <p className="text-muted-foreground text-sm">

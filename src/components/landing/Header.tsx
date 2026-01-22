@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
-import { Sparkles, Menu, X } from "lucide-react";
+import { Menu, X } from "lucide-react";
+import logoIcon from "/favicon.png";
 
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -33,7 +34,7 @@ const Header = () => {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <a href="#" className="flex items-center gap-2">
-            <Sparkles className="w-6 h-6 text-primary" />
+            <img src={logoIcon} alt="AR Paintings" className="w-7 h-7" />
             <span className="font-heading text-xl font-bold text-foreground">
               AR Paintings
             </span>
