@@ -1,6 +1,6 @@
-import painting1 from "@/assets/painting-1.jpg";
-import painting2 from "@/assets/painting-2.jpg";
-import painting3 from "@/assets/painting-3.jpg";
+import painting1 from "@/assets/painting-1.webp";
+import painting2 from "@/assets/painting-2.webp";
+import painting3 from "@/assets/painting-3.webp";
 import { Eye } from "lucide-react";
 import { Button } from "@/components/ui/button";
 

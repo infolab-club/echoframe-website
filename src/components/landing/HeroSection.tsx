@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import heroImage from "@/assets/hero-painting.jpg";
+import heroImage from "@/assets/hero-painting.webp";
 import { Sparkles, Eye } from "lucide-react";
 
 const HeroSection = () => {
